@@ -1,0 +1,25 @@
+<!--pages/home/home.wxml-->
+<!-- 1.轮播图 -->
+<scroll-view class="scroll"
+             scroll-y
+             bindscroll="scrollPosition"
+             scroll-with-animation
+             scroll-top="{{topPosition}}"
+             bindscrolltolower="loadMore">
+
+<w-swiper list="{{banners}}"/>
+<!-- 2.推荐数据 -->
+<w-recommend list="{{recommend}}"/>
+
+<!-- 3.展示本周流行 -->
+<w-popular/>
+  <!-- 4.tab-control显示 -->
+    <w-tab-control class="{{isTop? 'tab-control-fixed' : ''}}" titles="{{titles}}" bind:tabclick="TabClick"/>
+  
+
+  <!-- 5.goods展示 -->
+  <w-goods goodslist="{{goods[currentType].list}}"/>
+
+</scroll-view>
+<w-backTop bind:tap="backtop" wx:if="{{showbackicon}}"/>
+

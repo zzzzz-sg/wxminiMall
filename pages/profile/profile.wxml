@@ -1,0 +1,7 @@
+<!--pages/profile/profile.wxml-->
+<w-header user="{{userInfo}}"/>
+<w-info/>
+
+<w-list-view infos="{{orderList}}"/>
+<w-list-view infos="{{serviceList}}"/>
+<button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" size="mini" style="background-color:green">微信登录</button>

@@ -1,0 +1,19 @@
+/* pages/profile/childCpns/w-info/w-info.wxss */
+.info {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background: #fff;
+}
+.info-item {
+  flex: 1;
+  font-size: 28rpx;
+  border: 2rpx solid #f8f8f8;
+  border-top: none;
+  padding: 50rpx 0;
+}
+.count {
+  color: #ff5f5e;
+  font-size: 40rpx;
+  font-weight: 700;
+}

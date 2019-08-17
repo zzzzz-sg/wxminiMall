@@ -1,0 +1,32 @@
+/* components/w-goods/w-goods.wxss */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.good {
+  width: 48%;
+}
+.image {
+  width: 100%;
+}
+.good-des {
+  font-size: 28rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.good-money {
+  font-size: 26rpx;
+  text-align: center;
+}
+.good-money .price {
+  color: #ff5777
+}
+.good-money .icon {
+  width: 30rpx;
+  height: 30rpx;
+  padding: 0 6rpx 0 10rpx;
+  position: relative;
+  top:4rpx;
+}

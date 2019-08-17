@@ -1,0 +1,9 @@
+/* components/w-input/w-input.wxss */
+.w-input {
+  display: flex;
+  justify-content: center;
+}
+input {
+  border-bottom: 2rpx solid black;
+  width: 600rpx;
+}

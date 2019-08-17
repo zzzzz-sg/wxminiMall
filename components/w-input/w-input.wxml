@@ -1,0 +1,7 @@
+<!--components/w-input/w-input.wxml-->
+<form >
+<view class="w-input">
+ <input type="number" placeholder="点击输入手机号"></input>
+</view>
+   
+</form>

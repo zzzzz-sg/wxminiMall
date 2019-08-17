@@ -1,0 +1,13 @@
+<!--pages/cart/childCpns/bottom-bar/bottom-bar.wxml-->
+<view class="bottom-bar">
+  <view class="left-radio">
+    <w-check-icon class="icon" isChecked="{{selected}}"/>
+    <text>全选</text>
+  </view>
+  <view class="center-total">
+    <text>总计:￥</text>
+  </view>
+  <view class="rigth-compute">
+    <text>去计算</text>
+  </view>
+</view>

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "w-input":"/components/w-input/w-input"
+  }
+}

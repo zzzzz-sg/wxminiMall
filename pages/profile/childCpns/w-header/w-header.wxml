@@ -1,0 +1,16 @@
+<!--pages/profile/childCpns/w-header/w-header.wxml-->
+<view class="header">
+  <view class="avatar">
+    <image src="{{user.avatarUrl? user.avatarUrl: '/assets/profile/avatar.png'}}"/>
+  </view>
+  <view class="login-info">
+    <view class="login" bind:tap="loginTo">{{user.nickName? user.nickName:'登录/注册'}}</view>
+    <view class="phone">
+      <image src="/assets/profile/phone.png"/>
+      <text>暂无绑定手机号</text>
+    </view>
+  </view>
+  <view class="arrow-icon">
+    <image src="/assets/common/arrow-right.png"/>
+  </view>
+</view>

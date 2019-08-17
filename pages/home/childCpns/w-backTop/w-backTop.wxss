@@ -1,0 +1,9 @@
+/* pages/home/childCpns/w-backTop/w-backTop.wxss */
+.icon-top {
+  position: fixed;
+  bottom: 10rpx;
+  right: 20rpx;
+  width: 100rpx;
+  height: 100rpx;
+  z-index:9999
+}

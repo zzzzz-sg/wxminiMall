@@ -1,0 +1,10 @@
+<!--components/w-tab-control/w-tab-contorl.wxml-->
+<view class="tab-control">
+  <view class="tab-control-item " 
+         wx:for="{{titles}}" 
+         wx:key="{{index}}"
+         bind:tap="itemClick"
+         data-index="{{index}}">
+    <text class="{{index === currentIndex? 'active' :''}}">{{item}}</text>
+  </view>
+</view>

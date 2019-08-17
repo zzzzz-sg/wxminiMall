@@ -1,0 +1,36 @@
+/* pages/cart/childCpns/bottom-bar/bottom-bar.wxss */
+
+.bottom-bar {
+  display: flex;
+  height: 88rpx;
+  background: #eee;
+  align-items: center;
+  font-size: 28rpx;
+  border-top: 2rpx solid #eee;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.left-radio,.center-total,.rigth-compute {
+  flex: 1
+}
+.left-radio {
+  display: flex;
+  align-items: center;
+}
+.center-total {
+  font-size: 32rpx;
+  color: #333;
+}
+.rigth-compute {
+  background-color: #ff4500;
+  color:#fff;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+}
+.icon {
+  margin-right: 10rpx;
+}

@@ -1,0 +1,2 @@
+<!--pages/home/childCpns/w-backTop/w-backTop.wxml-->
+<image class="icon-top" src="/assets/common/top.png" mode="widthFix"></image>

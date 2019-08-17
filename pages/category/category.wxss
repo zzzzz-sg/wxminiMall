@@ -1,0 +1,11 @@
+/* pages/category/category.wxss */
+.category {
+  height: 100%;
+  display: flex;
+}
+.left {
+width: 30%;
+}
+.right {
+width: 70%;
+}

@@ -1,0 +1,19 @@
+<!--components/w-goods/w-goods.wxml-->
+<view class="container">
+  <block wx:for="{{goodslist}}" wx:key="{{index}}">
+    <view class="good" bindtap="goDetail" data-item="{{item}}">
+      <image src="{{item.image||item.img||item.show.img}}" class="image"    mode="widthFix" lazy-load/>
+      <view class="good-info">
+        <view class="good-des">
+          <text>{{item.title}}</text>    
+        </view>
+        <view class="good-money">
+          <text class="price">￥{{item.price}}</text>
+          <image class='icon' src="/assets/common/favor.png" lazy-load/>
+          <text class='cfav'>{{item.cfav}}</text>
+        </view>
+      </view>
+    </view>
+    
+  </block>
+</view>

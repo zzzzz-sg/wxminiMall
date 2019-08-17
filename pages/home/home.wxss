@@ -1,0 +1,14 @@
+/* pages/home/home.wxss */
+.active {
+  color:#ff5777;
+  border-bottom: 8rpx solid #ff5777;
+}
+.scroll {
+  height: 1500rpx;
+}
+.tab-control-fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #ffffff;
+}
